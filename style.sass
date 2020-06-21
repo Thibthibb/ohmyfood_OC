@@ -1,0 +1,93 @@
+$mint: #579C87
+$ohmyellow: #fcca46
+$whi: #fefeef
+
+$menu_1c: #fcdfdb
+$menu_2c: #fff5fe
+$menu_3c: #f9f9f9
+$menu_4c: #fdfffd
+
+body
+  background-color: $mint
+
+.all_body
+  //flex tags
+  display: flex
+  flex-wrap: wrap
+  flex-direction: column
+
+header
+  background-color: $mint
+  color: $ohmyellow
+  height: 99px
+  text-align: center
+
+.logo
+  margin: 27px
+  font-size: 40px
+  font-weight: bolder
+
+.center_page
+  background-color: $whi
+  margin: 0
+  height: 800px
+  padding-top: 40px
+
+  //flex tags
+  display: flex
+  flex-direction: column
+
+.all_menus
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-around
+
+.menu_1
+  background-color: $menu_1c
+  width: 225px
+  height: 315px
+  box-shadow: 5px 5px 25px grey
+
+.menu_2
+  background-color: $menu_2c
+  width: 225px
+  height: 315px
+  box-shadow: 5px 5px 25px grey
+
+.menu_3
+  background-color: $menu_3c
+  width: 225px
+  height: 315px
+  box-shadow: 5px 5px 25px grey
+
+.menu_4
+  background-color: $menu_4c
+  width: 225px
+  height: 315px
+  box-shadow: 5px 5px 25px grey
+
+footer
+  position: fixed
+  left: 0
+  bottom: 0
+  width: 100%
+  background-color: $mint
+  height: 75px
+
+  //flex tags
+  display: flex
+  justify-content: space-between
+
+a
+  display: inline-block
+  text-decoration: none
+  color: $ohmyellow
+  font-size: 30px
+  font-weight: 225
+  margin: 20px
+  &:hover
+    text-decoration: underline
+    cursor: pointer
+  &:visited
+    color: $ohmyellow
