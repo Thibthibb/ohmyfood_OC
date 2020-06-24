@@ -1,8 +1,6 @@
 body {
-  background-color: #579C87;
-}
-
-.all_body {
+  margin: 0;
+  background-color: #fefeef;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -41,6 +39,7 @@ header {
   background-color: #fcdfdb;
   width: 225px;
   height: 315px;
+  margin: 20px;
   box-shadow: 5px 5px 25px grey;
 }
 
@@ -48,6 +47,7 @@ header {
   background-color: #fff5fe;
   width: 225px;
   height: 315px;
+  margin: 20px;
   box-shadow: 5px 5px 25px grey;
 }
 
@@ -55,6 +55,7 @@ header {
   background-color: #f9f9f9;
   width: 225px;
   height: 315px;
+  margin: 20px;
   box-shadow: 5px 5px 25px grey;
 }
 
@@ -62,6 +63,7 @@ header {
   background-color: #fdfffd;
   width: 225px;
   height: 315px;
+  margin: 20px;
   box-shadow: 5px 5px 25px grey;
 }
 
@@ -71,7 +73,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #579C87;
-  height: 75px;
+  max-height: 75px;
   display: flex;
   justify-content: space-between;
 }
